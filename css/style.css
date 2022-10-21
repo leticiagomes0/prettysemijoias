@@ -354,8 +354,12 @@ font-size: 13px;
         padding: 10px 0 10px 5px;
         width: 100%;
     }
-    .txt2[type="submit"]{
-    background: #242424 none repeat scroll 0 0; 
+    .formbutton[type="submit"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px #8987e6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #8987e6;
+     box-shadow: inset 0px 1px 0px 0px #8987e6;
+    background-color: #6850be; 
+    display: inline-block;
     border: 1px solid #4f5c04;
     border-radius: 25px;
     color: #fff;
@@ -367,9 +371,12 @@ font-size: 13px;
     text-transform: uppercase;
     width: 30%;
     }
+    .formbutton:hover {
+        background-color: #5b5ac7;
+    }
     .txt2:hover {
         background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-        color: #5793ef;
+        color: #916aec;
         transition: all 0.5s ease 0s;
     }
 
@@ -558,12 +565,12 @@ font-size: 13px;
         text-transform: uppercase;
     }
     .heading {
-        border-bottom: 1px solid #fcab0e;
+        border-bottom: 1px solid #6425da;
         padding-bottom: 9pa;
         position: relative;
     }
     .heading span {
-        background: #9e6600 none repeat scroll 0 0;
+        background: #5142a7 none repeat scroll 0 0;
         bottom: -2px;
         height: 3px;
         left: 0;
@@ -585,8 +592,12 @@ font-size: 13px;
         padding: 10px 0 10px 5px;
         width: 100%;
     }
-    .txt2[type="submit"]{
-    background: #242424 none repeat scroll 0 0; 
+    .formbutton[type="submit"]{
+     -moz-box-shadow: inset 0px 1px 0px 0px #8987e6;
+     -webkit-box-shadow: inset 0px 1px 0px 0px #8987e6;
+     box-shadow: inset 0px 1px 0px 0px #8987e6;
+    background-color: #6850be; 
+    display: inline-block;
     border: 1px solid #4f5c04;
     border-radius: 25px;
     color: #fff;
@@ -598,10 +609,26 @@ font-size: 13px;
     text-transform: uppercase;
     width: 30%;
     }
+    .formbutton:hover {
+        background-color: #5b5ac7;
+    }
+    .formbutton:active {
+        position: relative;
+        top: 1px;
+    }
     .txt2:hover {
         background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-        color: #5793ef;
+        color: #916aec;
         transition: all 0.5s ease 0s;
     }
 
     /* Fim CSS contato */
+
+    /* Início mapa CSS */
+    .map {
+        min-height: 300px;
+        min-height: 300px;
+        width: 100%;
+        height: 100%;
+    }
+    /* Fim mapa CSS*/
